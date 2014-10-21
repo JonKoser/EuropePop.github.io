@@ -1,4 +1,4 @@
 EuropePop.github.io
 ===================
 
-Website for Jonathan Koser
+Lab 1 for Geog 575 at UW-Madison
