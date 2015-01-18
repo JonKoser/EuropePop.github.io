@@ -115,6 +115,12 @@ figcaption {
     
 }
 
+.picture {
+    margin: 5px;
+    border: 1px solid black;
+    padding: 1px;
+}
+
 .checkbox {
     float: right;
 }
