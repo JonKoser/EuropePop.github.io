@@ -15,7 +15,7 @@ $(document).ready(function() {
 
 	//identify which tile layer to use and then add it to the map
 	L.tileLayer(
-		'http://otile1.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png', {
+		    'https://korona.geog.uni-heidelberg.de/tiles/roads/x={x}&y={y}&z={z}', {
 			attribution: "Open Street Map Tiles" }).addTo(map);
 
 	//use jquery to get the GeoJSON data and send it to be processed
