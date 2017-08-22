@@ -10,13 +10,10 @@ $(document).ready(function() {
 		center: [50, 13],
 		zoom: 4,
 		maxZoom: 10,
-		minZoom: 3
+		minZoom: 3,
+        layers: MQ.mapLayer() // using MapQuest layer
 	});
 
-	//identify which tile layer to use and then add it to the map
-	L.tileLayer(
-		    'https://korona.geog.uni-heidelberg.de/tiles/roads/x={x}&y={y}&z={z}', {
-			attribution: "Open Street Map Tiles" }).addTo(map);
 
 	//use jquery to get the GeoJSON data and send it to be processed
 	//loads the geojson then passes it to the .done method to be used in the 
